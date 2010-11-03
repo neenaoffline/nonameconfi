@@ -135,7 +135,6 @@ ul.links li { border-left: 1px solid #29231e; /* LTR */ }
 ul.links li.first { border: none; }
 
 #search .form-text, #search .form-submit {
-  border: 1px solid #3d3230;
   font-size: 1.1em;
   height: 1.5em;
   vertical-align: middle;
@@ -220,7 +219,7 @@ ul.links li.first { border: none; }
   padding: 2px 2px 2px 24px;
   border-radius: 3px;
   -moz-border-radius: 3px;
-  border: 1px dashed #3d3230;
+  border-bottom: 1px dashed #3d3230;
 }
 
 /*
