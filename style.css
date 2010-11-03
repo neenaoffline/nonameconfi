@@ -131,13 +131,13 @@ table {
   font-weight: bold;
   color: #3d3230;
 }
-ul.links li {
-  border-left: 1px solid #9cf; /* LTR */
-}
-ul.links li.first {
-  border: none;
-}
+ul.links li { border-left: 1px solid #29231e; /* LTR */ }
+ul.links li.first { border: none; }
+
+#edit-search-theme-form-1 { background: #d9cdb6 url(images/background.png) repeat; }
+
 #search .form-text, #search .form-submit {
+  background: #d9cdb6 url(images/background.png) repeat;
   border-bottom: 1px solid #3d3230;
   border-top: 0px solid #fff;
   border-right: 0px solid #fff;
@@ -211,6 +211,14 @@ ul.links li.first {
   padding: 1em;
   font-size: 0.8em;
 }
+
+/*
+** This file is such a mess =(
+** Voteupdown theming
+*/
+
+.alternate-votes-display { border: 1px dashed #29231e; }
+.up-active { border: 1px dotted #29231e; }
 
 /*
 ** Common declarations for child classes of node, comment, block, box, etc.
