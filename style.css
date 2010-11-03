@@ -134,16 +134,6 @@ table {
 ul.links li { border-left: 1px solid #29231e; /* LTR */ }
 ul.links li.first { border: none; }
 
-#edit-search-theme-form-1
-{
-  background: transparent url(images/kfind.png) no-repeat;
-  padding: 4px 4px 4px 22px;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  border: 1px dashed #3d3230;
-}
-#edit-submit-1 { visibility: hidden; background: transparent; }
-
 #search .form-text, #search .form-submit {
   border: 1px solid #3d3230;
   font-size: 1.1em;
@@ -218,6 +208,20 @@ ul.links li.first { border: none; }
 
 /*
 ** This file is such a mess =(
+** Search box
+*/
+
+#edit-search-theme-form-1
+{
+  background: transparent url(images/kfind.png) no-repeat;
+  padding: 4px 4px 4px 22px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  border: 1px dashed #3d3230;
+}
+#edit-submit-1 { visibility: hidden; background: transparent; }
+
+/*
 ** Voteupdown theming
 */
 
