@@ -134,8 +134,8 @@ table {
 ul.links li { border-left: 1px solid #29231e; /* LTR */ }
 ul.links li.first { border: none; }
 
-#edit-search-theme-form-1 { background: transparent; }
-#edit-submit-1 { background: transparent; }
+#edit-search-theme-form-1 { background: transparent url(images/kfind.png); }
+#edit-submit-1 { display: hidden; background: transparent; }
 
 #search .form-text, #search .form-submit {
   border: 1px solid #3d3230;
