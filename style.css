@@ -134,12 +134,11 @@ table {
 ul.links li { border-left: 1px solid #29231e; /* LTR */ }
 ul.links li.first { border: none; }
 
+#edit-search-theme-form-1 { background: transparent; }
+#edit-submit-1 { background: transparent; }
+
 #search .form-text, #search .form-submit {
-  background: transparent;
-  border-bottom: 1px solid #3d3230;
-  border-top: 0px solid #fff;
-  border-right: 0px solid #fff;
-  border-left: 0px solid #fff;
+  border: 1px solid #3d3230;
   font-size: 1.1em;
   height: 1.5em;
   vertical-align: middle;
