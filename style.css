@@ -211,6 +211,8 @@ ul.links li.first { border: none; }
 ** Search box
 */
 
+#edit-search-theme-form-1-wrapper label { visibility: hidden; }
+#edit-submit-1 { visibility: hidden; }
 #edit-search-theme-form-1
 {
   background: transparent url(images/kfind.png) no-repeat;
@@ -219,7 +221,6 @@ ul.links li.first { border: none; }
   -moz-border-radius: 3px;
   border: 1px dashed #3d3230;
 }
-#edit-submit-1 { visibility: hidden; background: transparent; }
 
 /*
 ** Voteupdown theming
