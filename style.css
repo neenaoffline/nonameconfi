@@ -212,6 +212,7 @@ ul.links li.first { border: none; }
 */
 
 #edit-search-theme-form-1-wrapper label { visibility: hidden; }
+#edit-search-theme-form-1-wrapper input [type="submit"] { visibility: hidden; }
 #edit-submit-1 { visibility: hidden; }
 #edit-search-theme-form-1
 {
