@@ -209,8 +209,6 @@ ul.links li.first { border: none; }
 ** Search box
 */
 
-#edit-search-theme-form-1-wrapper label { visibility: hidden; }
-#edit-submit-2 { visibility: hidden; }
 #edit-search-theme-form-1
 {
   background: transparent url(images/kfind.png) no-repeat;
@@ -221,7 +219,7 @@ ul.links li.first { border: none; }
   border-top: 0px dashed #3d3230;
   border-right: 0px dashed #3d3230;
   border-left: 0px dashed #3d3230;
-  border-bottom: 1px dashed #3d3230;
+  border-bottom: 2px dashed #3d3230;
 }
 
 /*
@@ -377,8 +375,34 @@ div.admin-panel .body {
   background: #f4f4f4;
 }
 div.admin-panel h3 {
-  background-color: #69c;
-  color: #fff;
+  background-color: #fff;
+  color: #29231e;
   padding: 5px 8px 5px;
   margin: 0;
 }
+
+ul.primary li a
+{
+	background-color: #3d3230;
+	color: #fff;
+}
+
+ul.primary li a:hover
+{
+	background-color: #49403e;
+	color: #fff;
+}
+
+ul.primary li.active a
+{
+	background-color: #29231e;
+	color: #FFAB19;
+}
+
+ul.primary li.active a:hover
+{
+	background-color: #302216;
+	color: #FFAB19;
+}
+
+."messages error" { background: transparent; }
