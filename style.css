@@ -216,7 +216,8 @@ ul.links li.first { border: none; }
 #edit-search-theme-form-1
 {
   background: transparent url(images/kfind.png) no-repeat;
-  padding: 4px 4px 4px 22px;
+  background-position: left center;
+  padding: 2px 2px 2px 24px;
   border-radius: 3px;
   -moz-border-radius: 3px;
   border: 1px dashed #3d3230;
