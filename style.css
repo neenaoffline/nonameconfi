@@ -8,20 +8,23 @@ body {
   padding: 0;
   color: #000;
   background-color: #fff;
-  font: 76% 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+  font: 87%/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
   line-height:1;
  background: #d9cdb6 url(images/background.png) repeat;
     text-shadow:0px 1px 1px #fff;
     -moz-text-shadow:0px 1px 1px #fff; 
 }
-ol,ul{list-style:none;}
+ol,ul{list-style:decimal;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}:focus{outline:0;}
 ins{text-decoration:none;}
 del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0;}
 
-
-
+/* Fonts */
+@font-face {
+  font-family: Stenberg;
+  src: url(fonts/steni.ttf);
+}
 
 tr.odd td, tr.even td {
   padding: 0.3em;
@@ -32,18 +35,12 @@ font-family: Stenberg;
   src: url(fonts/steni.ttf);
 }
 
-
-h1 {
-
-  font-size: 1.3em;
-}
-
-h2 {
-  font-size: 1.2em;
-}
-h3, h4, h5, h6 {
-  font-size: 1.1em;
-}
+h1{font-size:2.2em;}
+h2{font-size:2.1em;}
+h3{font-size:1.9em;}
+h4{font-size:1.7em;}
+h5{font-size:1.7em;}
+h6{font-size:1.7em;}
 p {
   margin-top: 0.5em;
   margin-bottom: 0.9em;
@@ -53,13 +50,13 @@ a {
   font-weight: bold;
 }
 a:link {
-  color: #39c;
+  color: #3d3230;
 }
 a:visited {
-  color: #369;
+  color: #323230;
 }
 a:hover {
-  color: #39c;
+  color: #29231e;
   text-decoration: underline;
 }
 fieldset {
@@ -97,22 +94,18 @@ table {
   width: 100%;
 }
 #header {
-  background: #d9cdb6 url(images/background.png) repeat;
+  background: #d9cdb6 url(images/city.jpg) no-repeat;
+  background-position: center
 }
 #logo {
-  vertical-align: center;logo
+  vertical-align: center;
+  text-align: center;
   border: 0;
 }
 #logo img {
   float: center; /* LTR */
   padding: 0 1em;
   border: 0;
-
-}
-#wrapper {
-    width:950px;
-    margin:0px auto;
-    background: url(images/city.jpg) top center no-repeat;
 }
 
 #menu {
@@ -123,20 +116,20 @@ table {
 #navlist {
   font-size: 1.0em;
   padding: 0 0.8em 1.2em 0; /* LTR */
-  color: #9cf;
+  color: #3d3230;
 }
 #navlist a {
   font-weight: bold;
-  color: #fff;
+  color: #3d3230;
 }
 #subnavlist {
   padding: 0.5em 1.2em 0.4em 0; /* LTR */
   font-size: 0.8em;
-  color: #9cf;
+  color: #3d3230;
 }
 #subnavlist a {
   font-weight: bold;
-  color: #9cf;
+  color: #3d3230;
 }
 ul.links li {
   border-left: 1px solid #9cf; /* LTR */
@@ -145,7 +138,10 @@ ul.links li.first {
   border: none;
 }
 #search .form-text, #search .form-submit {
-  border: 1px solid #369;
+  border-bottom: 1px solid #3d3230;
+  border-top: 0px solid #fff;
+  border-right: 0px solid #fff;
+  border-left: 0px solid #fff;
   font-size: 1.1em;
   height: 1.5em;
   vertical-align: middle;
@@ -157,10 +153,10 @@ ul.links li.first {
 #mission {
   background-color: #369;
   padding: 1.5em 2em;
-  color: #fff;
+  color: #29231e;
 }
 #mission a, #mission a:visited {
-  color: #9cf;
+  color: #3d3230;
   font-weight: bold;
 }
 .site-name {
@@ -168,16 +164,10 @@ ul.links li.first {
   padding: 0;
   font-size: 2em;
 }
-.site-name a:link, .site-name a:visited {
-  color: #fff;
-}
-.site-name a:hover {
-  color: #369;
-  text-decoration: none;
-}
+.site-name a:hover { text-decoration: none; }
 .site-slogan {
   font-size: 1em;
-  color: #eee;
+  color: #29231e;
   display: block;
   margin: 0;
   font-style: italic;
@@ -186,6 +176,9 @@ ul.links li.first {
 #main {
   /* padding in px not ex because IE messes up 100% width tables otherwise */
   padding: 10px;
+  background: #d9cdb6 url(images/vshade.png);
+  background-repeat: repeat-y;
+  background-position: right;
 }
 #mission, .node .content, .comment .content {
   line-height: 1.4em;
@@ -226,13 +219,11 @@ ul.links li.first {
 ** See .comment .title for an example.
 */
 .title, .title a {
-  font-weight: bold;
-  font-size: 1.3em;
-  color: #777;
+  color: #3d3230;
   margin: 0 auto;  /* decrease default margins for h<x>.title */
 }
 .submitted {
-  color: #999;
+  color: #3d3230;
   font-size: 0.8em;
 }
 .links {
