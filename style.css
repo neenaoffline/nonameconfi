@@ -219,6 +219,9 @@ ul.links li.first { border: none; }
   padding: 2px 2px 2px 24px;
   border-radius: 3px;
   -moz-border-radius: 3px;
+  border-top: 0px dashed #3d3230;
+  border-right: 0px dashed #3d3230;
+  border-left: 0px dashed #3d3230;
   border-bottom: 1px dashed #3d3230;
 }
 
