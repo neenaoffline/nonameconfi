@@ -4,8 +4,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="<?php print $language->language ?>" xml:lang="<?php print $language->language ?>" dir="<?php print $language->dir ?>">
 
 <head>
-<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-
   <?php print $head ?>
   <title><?php print $head_title ?></title>
   <?php print $styles ?>

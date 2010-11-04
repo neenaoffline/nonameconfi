@@ -80,6 +80,8 @@ table {
   font-size: 1em;
   color: #222;
 }
+.item-list ul li { list-style: none outside none; }
+.edit-submit { margin-bottom: 2px; }
 .links {
   margin-bottom: 0;
 }
@@ -116,7 +118,7 @@ table {
 }
 #navlist {
   font-size: 1.0em;
-  padding: 0.1em 0em 0.3em 0em; /* LTR */
+  padding: 0.3em 0em 0.3em 0em; /* LTR */
   margin-right: 0.5em;
   background-color: #3d3230;
   color: #fff;
