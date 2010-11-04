@@ -7,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   color: #000;
-  font: 87%/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+  font: 87%/1.5 'sans-serif', 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
   line-height:1;
-  background: #ffffff;
+  background: #fff url(images/background.png) repeat;
   text-shadow:0px 1px 1px #fff;
   -moz-text-shadow:0px 1px 1px #fff; 
 }
@@ -96,10 +96,10 @@ table {
       background: url(images/background.png) repeat;
 }
 #logo {
-  background: url(images/city.jpg)  bottom left no-repeat;
+  background: url(images/city.jpg)  bottom -70px no-repeat;
   padding: 25px 38px 0px 38px;
   vertical-align: top;
-  text-align: center;
+  text-align: left;
   border: 0;
 }
 #logo img {
@@ -191,10 +191,11 @@ ul.links li.first { border: none; }
 #main {
   /* padding in px not ex because IE messes up 100% width tables otherwise */
   padding: 10px 40px 10px 40px;
-  /*background:  #fff;*/
+  background: url(images/vshade.png) no-repeat;
   background-repeat: repeat-y;
   background-position: right;
   min-height: 300px;
+  /*border-right:1px solid #aaa;*/
 }
 #mission, .node .content, .comment .content {
   line-height: 1.4em;
@@ -222,14 +223,14 @@ ul.links li.first { border: none; }
   vertical-align: top;
 }
 #footer {
-  background: #d9cdb6 url(images/background2.png) repeat;
-}
-#footcontain{
-     padding: 1em 1em 1em 3em;
+  background: url(images/footer.png) top center no-repeat;
+  padding: 1em 1em 1em 3em;
   font-size: 0.8em;
   text-align: center;
-  background: url(images/footer-background.png) top left repeat-x;
+  margin-top:100px;
+  clear:both;
 }
+
 /*
 ** This file is such a mess =( <<<<<<< TRUE
 ** Search box
@@ -462,3 +463,32 @@ ul.primary li.active a:hover
 tbody{
     border:none;
 }
+
+/*
+.menu li{
+    list-style:none;
+}
+.menu a{
+    color:#ffab19;
+}
+.menu li.leaf{
+    display:block;
+    margin:5px;
+    padding:5px 5px;
+    border-radius:5px;
+    background:#3d3230;
+    text-shadow:none;
+    -moz-text-shadow:none;
+}
+.menu .expanded li.leaf{
+    background:#55311D;
+}
+.menu li.expanded a{
+    background:blue;
+    display:block;
+    padding:5px 5px;
+    border-radius:5px;
+}
+.menu .expanded li.leaf a{
+    background:none;
+}*/
