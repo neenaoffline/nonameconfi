@@ -230,7 +230,11 @@ ul.links li.first { border: none; }
 
 #search-theme-form
 {
-  margin-right: 0.5em;
+  padding: 0em 0.5em 0em 0em;
+}
+
+#edit-search-theme-form-1
+{
   background: transparent url(images/kfind.png) no-repeat;
   background-position: left center;
   padding: 2px 2px 2px 24px;
