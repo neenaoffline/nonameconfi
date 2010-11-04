@@ -122,7 +122,6 @@ table {
   -moz-text-shadow: 0 0px 0px #fff;
 }
 #navlist a {
-  font-weight: bold;
   background-color: #3d3230;
   color: #FFAB19;
 }
@@ -135,10 +134,12 @@ table {
   -moz-text-shadow: 0 0px 0px #fff;
 }
 #subnavlist a {
-  font-weight: bold;
   color: #FFAB19;
 }
-ul.links li { border-left: 1px solid #29231e; /* LTR */ }
+ul.links li
+{
+  border-left: 1px solid #29231e; /* LTR */
+}
 ul.links li.first
 {
   border: none;
