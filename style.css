@@ -115,7 +115,7 @@ table {
 }
 #navlist {
   font-size: 1.0em;
-  padding: 0px; /* LTR */
+  padding: 0px 0px 0.3em 0px; /* LTR */
   background-color: #3d3230;
   color: #fff;
   text-shadow: 0 0px 0px #fff;
@@ -256,11 +256,9 @@ ul.links li.first { border: none; }
   font-size: 0.8em;
 }
 .links {
-  color: #999;
+  color: #bbb;
 }
-.links a {
-  font-weight: bold;
-}
+
 .block, .box {
   padding: 0 0 1.5em 0; /* LTR */
 }
