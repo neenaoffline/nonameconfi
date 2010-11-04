@@ -116,20 +116,23 @@ table {
 #navlist {
   font-size: 1.0em;
   padding: 0 0.8em 1.2em 0; /* LTR */
-  color: #3d3230;
+  background-color: #3d3230;
+  color: #fff;
 }
 #navlist a {
   font-weight: bold;
-  color: #3d3230;
+  background-color: #3d3230;
+  color: #FFAB19;
 }
 #subnavlist {
   padding: 0.5em 1.2em 0.4em 0; /* LTR */
   font-size: 0.8em;
-  color: #3d3230;
+  background-color: #3d3230;
+  color: #fff;
 }
 #subnavlist a {
   font-weight: bold;
-  color: #3d3230;
+  color: #FFAB19;
 }
 ul.links li { border-left: 1px solid #29231e; /* LTR */ }
 ul.links li.first { border: none; }
