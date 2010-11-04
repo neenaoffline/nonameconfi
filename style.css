@@ -98,7 +98,8 @@ table {
   background-position: center
 }
 #logo {
-  vertical-align: center;
+  padding: 18px;
+  vertical-align: top;
   text-align: center;
   border: 0;
 }
@@ -109,7 +110,7 @@ table {
 }
 
 #menu {
-  padding: 0em 0.5em 0 0.5em; /* LTR */
+  padding: 0 0 0 0; /* LTR */
   text-align: right; /* LTR */
   vertical-align: top;
 }
@@ -182,10 +183,11 @@ ul.links li.first { border: none; }
 }
 #main {
   /* padding in px not ex because IE messes up 100% width tables otherwise */
-  padding: 10px;
+  padding: 10px 20px 10px 60px;
   background: #d9cdb6 url(images/vshade.png);
   background-repeat: repeat-y;
   background-position: right;
+  min-height: 300px;
 }
 #mission, .node .content, .comment .content {
   line-height: 1.4em;
@@ -217,6 +219,7 @@ ul.links li.first { border: none; }
   background: #d9cdb6 url(images/background.png) repeat;
   padding: 1em;
   font-size: 0.8em;
+  text-align: center;
 }
 
 /*
@@ -266,7 +269,6 @@ ul.links li.first { border: none; }
   padding: 0 0 1.5em 0; /* LTR */
 }
 .block {
-  border-bottom: 1px solid #29231e;
   padding-bottom: 0.75em;
   margin-bottom: 1.5em;
 }

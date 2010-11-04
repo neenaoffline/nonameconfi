@@ -35,7 +35,7 @@
 ?>
 <div id="search" class="container-inline">
 <?php
-  $search["search_theme_form"]= str_replace("Search this site: ", "", $search["search_theme_form"]);
+  $search["search_theme_form"]= str_replace("Search this site: ", "Search: ", $search["search_theme_form"]);
   $search["submit"] = str_replace("<input", "<input style=\"display: none\";", $search["submit"]);
   print $search["search_theme_form"];
   print $search["submit"];
