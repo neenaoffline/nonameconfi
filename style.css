@@ -93,8 +93,7 @@ table {
   width: 100%;
 }
 #header {
-  background:  url(images/city.jpg) no-repeat;
-  background-position: center
+  background:  url(images/city.jpg)  bottom left no-repeat;
 }
 #logo {
   padding: 25px 8px 0px 8px;
@@ -457,3 +456,7 @@ ul.primary li.active a:hover
 
 .messages { background: transparent; }
 .errors { background: transparent; }
+
+tbody{
+    border:none;
+}
