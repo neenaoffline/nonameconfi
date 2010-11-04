@@ -152,7 +152,6 @@ ul.links li
 ul.links li.first { border: none; }
 
 #search .form-text, #search .form-submit {
-  margin-right: 0.5em;
   font-size: 1.1em;
   height: 1.5em;
   vertical-align: middle;
@@ -229,8 +228,9 @@ ul.links li.first { border: none; }
 ** Search box
 */
 
-#edit-search-theme-form-1
+#search-theme-form
 {
+  margin-right: 0.5em;
   background: transparent url(images/kfind.png) no-repeat;
   background-position: left center;
   padding: 2px 2px 2px 24px;
