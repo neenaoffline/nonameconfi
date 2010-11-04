@@ -381,14 +381,21 @@ div.admin-panel h3 {
   margin: 0;
 }
 
+ul.primary
+{
+	border-bottom: 1px #29231e solid;
+}
+
 ul.primary li a
 {
 	background-color: #3d3230;
 	color: #fff;
+	border: 1px #29231e solid;
+	padding: 2px;
 	font-family: "lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
 	font-weight: normal;
-	text-shadow: 0px;
-	-moz-text-shadow: 0px;
+	text-shadow: 0 0px 0px #fff;
+	-moz-text-shadow: 0 0px 0px #fff;
 }
 
 ul.primary li a:hover
@@ -401,10 +408,12 @@ ul.primary li.active a
 {
 	background-color: #29231e;
 	color: #FFAB19;
+	border: 1px #29231e solid;
+	padding: 2px;
 	font-family: "lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
 	font-weight: normal;
-	text-shadow: 0px;
-	-moz-text-shadow: 0px;
+	text-shadow: 0 0px 0px #fff;
+	-moz-text-shadow: 0 0px 0px #fff;
 }
 
 ul.primary li.active a:hover
@@ -413,4 +422,5 @@ ul.primary li.active a:hover
 	color: #FFAB19;
 }
 
-."messages error" { background: transparent; }
+.messages { background: transparent; }
+.errors { background: transparent; }
