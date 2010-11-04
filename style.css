@@ -129,6 +129,9 @@ table {
   background-color: #3d3230;
   color: #FFAB19;
 }
+#navlist a:hover {
+  color: #bbb;
+}
 #subnavlist {
   padding: 0.5em 1.2em 0.4em 0; /* LTR */
   font-size: 0.8em;
@@ -263,7 +266,7 @@ ul.links li.first { border: none; }
   padding: 0 0 1.5em 0; /* LTR */
 }
 .block {
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid #29231e;
   padding-bottom: 0.75em;
   margin-bottom: 1.5em;
 }
