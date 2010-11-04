@@ -385,6 +385,10 @@ ul.primary li a
 {
 	background-color: #3d3230;
 	color: #fff;
+	font-family: "lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
+	font-weight: normal;
+	text-shadow: 0px;
+	-moz-text-shadow: 0px;
 }
 
 ul.primary li a:hover
@@ -397,6 +401,10 @@ ul.primary li.active a
 {
 	background-color: #29231e;
 	color: #FFAB19;
+	font-family: "lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
+	font-weight: normal;
+	text-shadow: 0px;
+	-moz-text-shadow: 0px;
 }
 
 ul.primary li.active a:hover
