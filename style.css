@@ -401,6 +401,7 @@ ul.primary li a
 ul.primary li a:hover
 {
 	background-color: #49403e;
+	border: 1px #FFAB19 solid;
 	color: #fff;
 }
 
@@ -421,6 +422,8 @@ ul.primary li.active a:hover
 	background-color: #302216;
 	color: #FFAB19;
 }
+
+.grippie { background-color: #49403e; }
 
 .messages { background: transparent; }
 .errors { background: transparent; }
