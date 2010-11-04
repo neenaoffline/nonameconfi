@@ -416,6 +416,7 @@ ul.primary li a:hover
 {
 	background-color: #302216;
 	border: 1px #FFAB19 solid;
+	border-bottom: 1px #29231e solid;
 	color: #fff;
 }
 
