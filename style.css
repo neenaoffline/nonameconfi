@@ -7,12 +7,11 @@ body {
   margin: 0;
   padding: 0;
   color: #000;
-  background-color: #fff;
   font: 87%/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
   line-height:1;
- background: #d9cdb6 url(images/background.png) repeat;
-    text-shadow:0px 1px 1px #fff;
-    -moz-text-shadow:0px 1px 1px #fff; 
+  background: #d9cdb6 url(images/background.png) repeat;
+  text-shadow:0px 1px 1px #fff;
+  -moz-text-shadow:0px 1px 1px #fff; 
 }
 ol,ul{list-style:decimal;}
 blockquote,q{quotes:none;}
@@ -94,11 +93,11 @@ table {
   width: 100%;
 }
 #header {
-  background: #d9cdb6 url(images/city.jpg) no-repeat;
+  background:  url(images/city.jpg) no-repeat;
   background-position: center
 }
 #logo {
-  padding: 18px;
+  padding: 25px 8px 0px 8px;
   vertical-align: top;
   text-align: center;
   border: 0;
@@ -192,7 +191,7 @@ ul.links li.first { border: none; }
 #main {
   /* padding in px not ex because IE messes up 100% width tables otherwise */
   padding: 10px 40px 10px 40px;
-  background: #d9cdb6 url(images/vshade.png);
+  /*background:  #fff;*/
   background-repeat: repeat-y;
   background-position: right;
   min-height: 300px;
