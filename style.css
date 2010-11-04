@@ -115,9 +115,11 @@ table {
 }
 #navlist {
   font-size: 1.0em;
-  padding: 0 0.8em 1.2em 0; /* LTR */
+  padding: 0px; /* LTR */
   background-color: #3d3230;
   color: #fff;
+  text-shadow: 0 0px 0px #fff;
+  -moz-text-shadow: 0 0px 0px #fff;
 }
 #navlist a {
   font-weight: bold;
@@ -129,13 +131,26 @@ table {
   font-size: 0.8em;
   background-color: #3d3230;
   color: #fff;
+  text-shadow: 0 0px 0px #fff;
+  -moz-text-shadow: 0 0px 0px #fff;
 }
 #subnavlist a {
   font-weight: bold;
   color: #FFAB19;
 }
 ul.links li { border-left: 1px solid #29231e; /* LTR */ }
-ul.links li.first { border: none; }
+ul.links li.first
+{
+  border: none;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+}
+
+ul.links li.last
+{
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+}
 
 #search .form-text, #search .form-submit {
   font-size: 1.1em;
