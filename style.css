@@ -109,9 +109,9 @@ table {
 }
 
 #menu {
-  padding: 0.5em 0.5em 0 0.5em; /* LTR */
+  padding: 0em 0.5em 0 0.5em; /* LTR */
   text-align: right; /* LTR */
-  vertical-align: middle;
+  vertical-align: top;
 }
 #navlist {
   font-size: 1.0em;
@@ -219,7 +219,7 @@ ul.links li.first { border: none; }
   border-top: 0px dashed #3d3230;
   border-right: 0px dashed #3d3230;
   border-left: 0px dashed #3d3230;
-  border-bottom: 2px dashed #3d3230;
+  border-bottom: 1px solid #3d3230;
 }
 
 /*
@@ -383,6 +383,7 @@ div.admin-panel h3 {
 
 ul.primary
 {
+	margin-bottom: 4px;
 	border-bottom: 1px #29231e solid;
 }
 
@@ -400,7 +401,7 @@ ul.primary li a
 
 ul.primary li a:hover
 {
-	background-color: #49403e;
+	background-color: #302216;
 	border: 1px #FFAB19 solid;
 	color: #fff;
 }
@@ -419,10 +420,11 @@ ul.primary li.active a
 
 ul.primary li.active a:hover
 {
-	background-color: #302216;
+	background-color: #29231e;
 	color: #FFAB19;
 }
 
+.form-item label { margin-bottom: 3px; }
 .grippie { background-color: #49403e; }
 
 .messages { background: transparent; }
