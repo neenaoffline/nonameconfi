@@ -58,8 +58,10 @@
 </table>
 
 <div id="footer">
+	<div id="footcontain">
   <?php print $footer_message ?>
   <?php print $footer ?>
+	</div>
 </div>
 <?php print $closure ?>
 </body>
