@@ -121,7 +121,7 @@ tbody { border: 0px #fff solid; }
 #navlist {
   font-size: 1.0em;
   padding: 2px 5px 5px 5px;
-  margin-right: 0px;
+  margin-right: 0.5em;
   background-color: #3d3230;
   color: #fff;
   list-style:none;
