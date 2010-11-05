@@ -276,9 +276,6 @@ ul.links li.first { border: none; }
   color: #3d3230;
   font-size: 0.8em;
 }
-.links {
-  color: #bbb;
-}
 
 .block, .box {
   padding: 0 0 1.5em 0; /* LTR */
@@ -315,7 +312,7 @@ ul.links li.first { border: none; }
   margin: 0.5em;
 }
 .comment {
-  border: 1px solid #abc;
+  border: 1px solid #323232;
   padding: .5em;
   margin-bottom: 1em;
 }
