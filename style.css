@@ -18,7 +18,9 @@ ol,ul{list-style:decimal;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}:focus{outline:0;}
 ins{text-decoration:none;}
-del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
 
 /* Fonts */
 @font-face {
@@ -68,10 +70,8 @@ pre {
   font-size: 12px;
   border: 1px solid #ddd;
 }
-table {
-  /* make <td> sizes relative to body size! */
-  font-size: 1em;
-}
+table { /* make <td> sizes relative to body size! */ font-size: 1em; }
+tbody { border: 0px #fff solid; }
 .form-item label {
   font-size: 1em;
   color: #222;
