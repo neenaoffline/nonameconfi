@@ -274,7 +274,7 @@ ul.links li.first { border: none; }
 }
 .submitted {
   color: #3d3230;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .block, .box {
@@ -302,9 +302,10 @@ ul.links li.first { border: none; }
   margin: .5em 0 .5em;
 }
 .node .taxonomy {
-  color: #999;
-  font-size: 0.8em;
-  padding-left: 1.5em; /* LTR */
+  color: #000;
+  font-size: 0.9em;
+  padding-left: 0.5em; /* LTR */
+  padding-top: 0.4em;
 }
 .node .picture {
   border: 1px solid #ddd;
@@ -420,11 +421,12 @@ ul.primary li a
 	background-color: #3d3230;
 	color: #fff;
 	border: 1px #29231e solid;
-	padding: 2px;
+	padding: 2px 4px 2px 4px;
 	font-family: "lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
 	font-weight: normal;
 	text-shadow: 0 0px 0px #fff;
 	-moz-text-shadow: 0 0px 0px #fff;
+        -moz-border-radius: 3px 3px 0 0;
 }
 
 ul.primary li a:hover
@@ -440,7 +442,7 @@ ul.primary li.active a
 	background-color: #29231e;
 	color: #FFAB19;
 	border: 1px #29231e solid;
-	padding: 2px;
+	padding: 2px 4px 2px 4px;
 	font-family: "lucida grande",lucida,tahoma,helvetica,arial,sans-serif;
 	font-weight: normal;
 	text-shadow: 0 0px 0px #fff;
