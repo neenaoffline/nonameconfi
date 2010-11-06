@@ -12,7 +12,7 @@ body {
   line-height:1;
  background: #d9cdb6 url(images/background.png) repeat;
     text-shadow:0px 1px 1px #fff;
-    -moz-text-shadow:0px 1px 1px #fff; 
+    -moz-text-shadow:0px 1px 1px #fff;
 }
 ol,ul{list-style:decimal;}
 blockquote,q{quotes:none;}
@@ -51,7 +51,7 @@ a {
   text-decoration: none;
 }
 a:link {
-  
+
   color: #333;
 }
 a:visited {
@@ -411,7 +411,8 @@ div.admin-panel h3 {
 ul.primary
 {
 	padding-bottom: 2px;
-	border-bottom: 1px #29231e solid;
+        padding-top: 10px;
+	border-bottom: 2px #29231e solid;
 }
 
 ul.primary li a
