@@ -11,12 +11,10 @@ body {
   font: 87%/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
   line-height:1;
  background: #d9cdb6 url(images/background.png) repeat;
-    text-shadow:0px 1px 1px #fff;
-    -moz-text-shadow:0px 1px 1px #fff;
 }
 ol,ul{list-style:decimal;}
 blockquote,q{quotes:none;}
-blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}:focus{outline:0;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';CONTENT:none;}:focus{outline:0;}
 ins{text-decoration:none;}
 del{text-decoration:line-through;}
 table{border-collapse:collapse;border-spacing:0;}
@@ -99,6 +97,12 @@ tbody { border: 0px #fff solid; }
 */
 #header, #content {
   width: 100%;
+  
+}
+#content {
+    text-shadow:0px 1px 1px #fff;
+    -moz-text-shadow:0px 1px 1px #fff;
+    
 }
 #header {
   background: #d9cdb6 url(images/city.jpg) no-repeat;
@@ -238,6 +242,9 @@ ul.links li.first { border: none; }
   padding: 1em 1em 1em 3em;
   font-size: 0.8em;
   text-align: center;
+  text-shadow:0px 1px 1px #fff;
+  -moz-text-shadow:0px 1px 1px #fff;
+  
 }
 
 /*
@@ -471,4 +478,9 @@ ul.primary li.active a:hover
 
 #admin-menu {
     text-shadow: none;
+}
+#panic {
+    border: 1px solid #000;
+    padding: 1em;
+    margin: 1em;
 }
