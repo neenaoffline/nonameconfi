@@ -470,5 +470,5 @@ ul.primary li.active a:hover
 .errors { background: transparent; }
 
 #admin-menu {
-    text-shadow: 0 0 0;
+    text-shadow: none;
 }
