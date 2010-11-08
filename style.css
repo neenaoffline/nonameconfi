@@ -220,6 +220,9 @@ ul.links li.first { border: none; }
   padding: 0.3em;
   margin-bottom: 1em;
 }
+.messages .status {
+    border: 1px solid #000;
+}
 .error {
   border-color: red;
 }
