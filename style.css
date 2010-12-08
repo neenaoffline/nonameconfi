@@ -106,7 +106,7 @@ tbody { border: 0px #fff solid; }
 }
 #header {
   background: #d9cdb6 url(images/city.jpg) no-repeat;
-  background-position: center
+  background-position: center bottom;
 }
 #logo {
   padding: 18px;

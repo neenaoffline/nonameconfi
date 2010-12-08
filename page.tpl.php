@@ -15,6 +15,11 @@
 
 <table border="0" cellpadding="0" cellspacing="0" id="header">
   <tr>
+    <td style="border-bottom: 2px solid rgb(51, 51, 51); padding: 10px; font-size: 1.8em; text-align: center;">
+Noname.Unconf December 18-19th, 2010 - Register Now!
+    </td>
+  </tr>
+  <tr>
     <td id="logo">
       <?php if ($logo) { ?><a href="<?php print $front_page ?>" title="<?php print t('Home') ?>"><img src="<?php print $logo ?>" alt="<?php print t('Home') ?>" /></a><?php } ?>
       <?php if ($site_name) { ?><h1 class='site-name'><a href="<?php 
